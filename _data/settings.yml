@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Duet
+  site_title: Jonadrew
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -10,17 +10,17 @@ menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Photography'
+      url: '/photography'
+    - title: 'Oil Gallery ^'
+      url: 'https://www.dailypaintworks.com/Artists/-jonadrew-13091'
     - title: 'About'
       url: '/about'
-    - title: 'Contact'
-      url: '/contact'
 
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: A beautiful, minimal two-column portfolio Jekyll theme
+  footer_tagline: 
 
 grid_settings:
   overlay_opacity: 0.8
@@ -35,7 +35,7 @@ contact_settings:
 social_settings:
   facebook_url: ''
   twitter_url: ''
-  instagram_url: ''
+  instagram_url: 'https://www.instagram.com/jonadrew_/'
   snapchat_url: ''
   youtube_url: ''
   google-plus_url: ''
