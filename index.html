@@ -20,12 +20,11 @@ featured_image: /images/social.jpg
 <section class="portfolio">
 
 	<div class="gallery" data-columns="3">
-		<img src="/images/projects/072721.png">
-		<img src="/images/projects/072621.png">
-		<img src="/images/projects/071821.png">
-		<img src="/images/projects/071721.png">
-		<img src="/images/projects/071321.png">
-		<img src="/images/projects/070621.png">
+		{% for image in site.static_files reversed %}
+			{% if image.path contains 'images/projects' %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
 	</div>
 
 </section>
