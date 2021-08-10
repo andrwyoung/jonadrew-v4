@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Jonadrew
-  favicon_image: /images/favicon.png
+  favicon_image: /images/profile.png
 
 header_settings:
   logo_image: 
@@ -8,11 +8,11 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: 'Digital'
       url: '/'
-    - title: 'Photography'
+    - title: 'Photos'
       url: '/photography'
-    - title: 'Oil Gallery ^'
+    - title: 'Oils ^'
       url: 'https://www.dailypaintworks.com/Artists/-jonadrew-13091'
     - title: 'About'
       url: '/about'
