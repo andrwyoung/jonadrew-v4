@@ -1,0 +1,30 @@
+---
+layout: default
+title: Pose Generator
+description: Random Pose Generator
+---
+
+
+<section class="intro">
+
+	<div class="wrap">
+		<h1>Random Pose Generator</h1>
+
+
+		<p> This generator is similar to <a href="https://lifedrawing.me/randompose">lifedrawing.me</a>
+			but is geared more towards drawing from imagination.
+		</p>
+
+		<p> Also. If you use a Mac, <a href="https://github.com/andrwyoung/shell-scripts/blob/master/fig">here's</a> a Bash script 
+			that can help you choose a random photo from a folder (or nested folders). It's a jank free version of the
+			<a href="https://www.artstation.com/marketplace/p/k1Vq/gesturedrawing">Gesture Drawing App</a></p>
+
+		<center>
+			<button onclick="generatePose()">Generate New Pose</button>
+		</center>
+		
+		<body onload="generatePose();"></body>
+		<p id="pose"></p>
+	</div>
+
+</section>

@@ -24,7 +24,7 @@ description: Digital Art Gallery
 
 	<div class="gallery" data-columns="3">
 		{% for image in site.static_files reversed %}
-			{% if image.path contains 'images/projects' %}
+			{% if image.path contains 'images/digitals' %}
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}

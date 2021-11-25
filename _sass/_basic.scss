@@ -204,20 +204,28 @@ a {
 	}
 }
 
-.button {
+#pose {
+	text-align:center; 
+	background: #FAF5ED;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+button {
+	margin: 20px;
 	display: inline-block;
-	padding: 9px 10px 10px;
-	font-size: 13px;
+	font-size: 20px;
 	line-height: 1;
-	border: 2px solid $accent-color;
+	border: 1px solid $accent-color;
 	background: $accent-color;
 	color: $background-color;
 	font-weight: $button-weight;
 	letter-spacing: $button-spacing;
+	border-radius: 5px;
 	cursor: pointer;
 
 	@include mq(tabletp) {
-		padding: 11px 20px 12px;
+		padding: 8px 20px 9px;
 		font-size: 15px;
 	}
 

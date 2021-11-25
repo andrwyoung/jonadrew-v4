@@ -20,7 +20,8 @@ description: Photo Albums
 
 	<div class="content-wrap blog-wrap">
 
-		{% for post in paginator.posts %}
+		{% assign sorted-posts = site.photo_posts | reverse %}
+		{% for post in sorted-posts %}
 
 		<article class="blog-post">
 
@@ -47,7 +48,7 @@ description: Photo Albums
 
 </section>
 
-{% if paginator.total_pages > 1 %}
+<!-- {% if paginator.total_pages > 1 %}
 
 <section class="pagination">
 
@@ -62,6 +63,6 @@ description: Photo Albums
 
 	</div>
 
-</section>
+</section> -->
 
 {% endif %}

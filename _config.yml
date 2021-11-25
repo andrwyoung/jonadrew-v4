@@ -4,15 +4,9 @@ url:
 baseurl: 
 
 collections:
-  pages:
+  photo_posts:
     output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /photography/:slug
-  projects:
-    output: true
-    permalink: /project/:slug
+    sort_by: date
 
 defaults:
   -
