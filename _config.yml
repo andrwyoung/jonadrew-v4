@@ -4,6 +4,9 @@ url:
 baseurl: 
 
 collections:
+  pages:
+    output: true
+    permalink: /:name
   photo_posts:
     output: true
     sort_by: date
