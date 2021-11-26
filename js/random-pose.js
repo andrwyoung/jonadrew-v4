@@ -2,15 +2,24 @@ function chooseRandom(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
-function chooseRandomNull(label, array) {
+function chooseRandomNamed(label, array) {
     var chosen_item = chooseRandom(array);
-    if (chosen_item == '') {
-        return '';
-    } else {
-        return "<br/>" + label + ": " + chosen_item;
-    }
+    return "<br/>" + label + ": " + chosen_item;
 }
 
+// add probability that result will be nothing (denoted by '-')
+function chooseRandomNull(probability, label, array) {
+    var probArray = [probability]
+    for (let i = 0; i < array.length; i++) {
+        probArray.push(1);
+    }
+
+    // console.log(probArray);
+    var chosen_item = chooseWithProbability(['-'].concat(array), probArray);
+    return "<br/>" + label + ": " + chosen_item;
+}
+
+// choose item from weighted list
 function chooseWithProbability(words, probs) {
     var i, total = 0;
     for (i = 0; i < probs.length; i++) {
@@ -37,21 +46,17 @@ function chooseWithProbability(words, probs) {
     return words[i];
 }
 
-function chooseWithProbabilityNull(label, words, probs) {
+function chooseWithProbabilityNamed(label, words, probs) {
     var chosen_item = chooseWithProbability(words, probs);
-    if (chosen_item == '') {
-        return '';
-    } else {
-        return "<br/>" + label + ": " + chosen_item;
-    }
+    return "<br/>" + label + ": " + chosen_item;
 }
 
 function addPoseModifiers(pose) {
     var actions, actProbs;
     switch(pose) {
         case 'standing':
-            actions = ['', 'weight on one foot', 'leaning on wall', 'on one foot', 'in ready position'];
-            actProbs = [3, 2, 1, 1, 1];
+            actions = ['', 'weight on one foot', 'leaning on wall', 'on one foot'];
+            actProbs = [3, 2, 1, 1];
             return chooseWithProbability(actions, actProbs);
         case 'sitting':
             actions = ['', 'in a chair', 'on the floor', 'on a couch', 'on a stool', 'at the desk'];
@@ -79,8 +84,10 @@ function generatePose() {
                 'punching',
                 'kicking',
                 'walking',
+                'kneeling'
                 ];
-    var chosenPose = chooseRandom(poses);
+    var poseProbs = [8, 8, 3, 2, 3, 1, 1, 3, 3, 4, 2]
+    var chosenPose = chooseWithProbability(poses, poseProbs);
     var pose = "<br/>Pose: " + chosenPose + " " + addPoseModifiers(chosenPose);
 
     var emotions = ['joyfully',
@@ -98,29 +105,9 @@ function generatePose() {
                 ];
     var emotion = "<br/>Emotion: " + chooseRandom(emotions);
 
-
-
-    var props = ['-',
-                'rifle',
-                'pistol',
-                'bat',
-                'pole',
-                'basketball',
-                'football',
-                'ramen',
-                'wand',
-                'book',
-                'laptop',
-                'knife'
-                ];
-    var propProbs = [10, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
-    var prop = chooseWithProbabilityNull("Props", props, propProbs);
-
-
-
     var final = "Gender: " + gender + pose + emotion + 
     "<br/>" + chooseView() +
-    "<br/>" + prop;
+    "<br/>" + chooseClothing(gender);
 
     document.getElementById("pose").innerHTML = final;
 }
@@ -159,11 +146,98 @@ function chooseView() {
 }
 
 function chooseClothing(gender) {
-    // var hat = [];
+    var props = ['rifle',
+                'rocket launcher',
+                'pistol',
+                'bat',
+                'pole/spear',
+                'basketball',
+                'football',
+                'ramen',
+                'chicken',
+                'pan',
+                'wand',
+                'book',
+                'laptop',
+                'knife',
+                'broom',
+                'cup',
+                'soccer ball',
+                'shield',
+                'axe',
+                'sycthe',
+                'box'
+                ];
+    var prop = chooseRandomNull(15, "Props", props);
+
+    var hats = [ 'fedora',
+                'straw hat',
+                'cowboy hat',
+                'baseball hat',
+                'beanie',
+                'helmet'
+                ];
+    if (gender == 'female') {
+        hats = hats.concat('witch hat');
+    }
+    var hat = chooseRandomNull(20, "Hat", hats);
+
+    var coats = ['trench coat',
+                'poofy jacket',
+                'hoodie',
+                'zipper',
+                'raincoat',
+                'regular jacket',
+                'sweater',
+                ];
+    var coat = chooseRandomNull(20, "Coat", coats);
+
     // var face = [];
-    // var glove = [];
-    // var shirt = [];
-    // var pants = [];
-    // var shoes = [];
-    // var addons = ['backpack', 'sachel', 'dog'];
+    var shirts = ['t shirt',
+                'long sleeve',
+                'button up',
+                'tank top',
+                'polo',
+                'turtle neck',
+                ];
+    if (gender == 'female') {
+        shirts = shirts.concat('bra', 'sleveless', 'crop top');
+    }
+    var shirt = chooseRandomNamed("Shirt", shirts);  
+
+    var pants = ['jeans',
+                'sweatpants',
+                'overalls',
+                'track pants',
+                'shorts',
+                'khakis',
+                'cargo pants',
+                'slacks'
+                ];
+    if (gender == 'female') {
+        pants = pants.concat('yoga pants', 'tights', 'miniskirt', 'dress', 'gaucho pants');
+    }
+    var pant = chooseRandomNamed("Pants", pants);  
+
+    var shoes = ['sneakers',
+                'boots',
+                'army boots',
+                'cowboy boots',
+                'flip flops',
+                'slides/slippers',
+                'dress shoes',
+                ];
+    if (gender == 'female') {
+        shoes = shoes.concat('high heels', 'knee high boots');
+    }
+    var shoe = chooseRandomNull(10, "Shoes", shoes);
+    
+
+    var addons = ['backpack', 'sachel', 'gloves', 'watch'];
+    if (gender == 'female') {
+        addons = addons.concat('purse');
+    }
+    var addon = chooseRandomNull(10, "Addons", addons);
+
+    return prop + hat + coat + shirt + pant + shoe + addon;
 }
