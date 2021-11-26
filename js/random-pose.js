@@ -36,7 +36,7 @@ function chooseWithProbability(words, probs) {
     var sum = 0
     for (i = 0 ; i < probs.length; i++) {
       sum += (probs[i] / total);
-    //   console.log("prob for " + words[i] + ": " + (probs[i] / total * 100));
+      console.log("prob for " + words[i] + ": " + (probs[i] / total * 100));
       ar[i] = sum;
     }
 
@@ -90,6 +90,15 @@ function generatePose() {
     var chosenPose = chooseWithProbability(poses, poseProbs);
     var pose = "<br/>Pose: " + chosenPose + " " + addPoseModifiers(chosenPose);
 
+    var sizes = ['skinny',
+                'normal',
+                'muscular',
+                'fat',
+                'kid',
+                'old'];
+    var sizeProb = [2, 10, 5, 1, 2, 1];
+    var size = chooseWithProbabilityNamed("Size", sizes, sizeProb);
+
     var emotions = ['joyfully',
                 'fearfully',
                 'eagerly',
@@ -105,7 +114,7 @@ function generatePose() {
                 ];
     var emotion = "<br/>Emotion: " + chooseRandom(emotions);
 
-    var final = "Gender: " + gender + pose + emotion + 
+    var final = "Gender: " + gender + pose + emotion + size + 
     "<br/>" + chooseView() +
     "<br/>" + chooseClothing(gender);
 
@@ -120,14 +129,11 @@ function chooseView() {
         'bottom angle (worms eye)',
         ];
     // we want a higher probability that "eye level" gets chosen
-    var angleProbs = [1, 2, 8, 2, 1]
+    var angleProbs = [1, 4, 12, 4, 1]
     var angle = "<br/>Camera Angle: " + chooseWithProbability(angles, angleProbs);
 
 
-    var positions = ['front',
-        'side',
-        'back',
-        ];
+    var positions = ['front', 'side', 'back'];
     // we want a higher probability that "front" gets chosen
     var posProbs = [10, 2, 1];
     var position = "<br/>Actor Angle: " + chooseWithProbability(positions, posProbs);
@@ -233,7 +239,7 @@ function chooseClothing(gender) {
     var shoe = chooseRandomNull(10, "Shoes", shoes);
     
 
-    var addons = ['backpack', 'sachel', 'gloves', 'watch'];
+    var addons = ['backpack', 'satchel', 'gloves', 'watch', 'briefcase'];
     if (gender == 'female') {
         addons = addons.concat('purse');
     }
