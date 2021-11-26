@@ -8,15 +8,23 @@ function chooseRandomNamed(label, array) {
 }
 
 // add probability that result will be nothing (denoted by '-')
-function chooseRandomNull(probability, label, array) {
+function chooseRandomNull(probability, array) {
     var probArray = [probability]
     for (let i = 0; i < array.length; i++) {
         probArray.push(1);
     }
 
     // console.log(probArray);
-    var chosen_item = chooseWithProbability(['-'].concat(array), probArray);
-    return "<br/>" + label + ": " + chosen_item;
+    return chosen_item = chooseWithProbability(['-'].concat(array), probArray);
+}
+
+function chooseRandomAccessory(probability, array) {
+    var item = chooseRandomNull(probability, array);
+    if (item == '-') {
+        return '';
+    } else {
+        return item + ', ';
+    }
 }
 
 // choose item from weighted list
@@ -36,7 +44,7 @@ function chooseWithProbability(words, probs) {
     var sum = 0
     for (i = 0 ; i < probs.length; i++) {
       sum += (probs[i] / total);
-      console.log("prob for " + words[i] + ": " + (probs[i] / total * 100));
+    //   console.log("prob for " + words[i] + ": " + (probs[i] / total * 100));
       ar[i] = sum;
     }
 
@@ -62,7 +70,7 @@ function addPoseModifiers(pose) {
             actions = ['', 'in a chair', 'on the floor', 'on a couch', 'on a stool', 'at the desk'];
             return chooseRandom(actions);
         case 'lying down':
-            actions = ['', ' on the bed', 'on the side'];
+            actions = ['', ' on the bed', 'on the side', 'on a couch'];
             return chooseRandom(actions);
     }
     return '';
@@ -94,10 +102,9 @@ function generatePose() {
                 'normal',
                 'muscular',
                 'fat',
-                'kid',
-                'old'];
-    var sizeProb = [2, 10, 5, 1, 2, 1];
-    var size = chooseWithProbabilityNamed("Size", sizes, sizeProb);
+                ];
+    var sizeProb = [1, 6, 3, 1];
+    var size = chooseWithProbabilityNamed("Body Mass", sizes, sizeProb);
 
     var emotions = ['joyfully',
                 'fearfully',
@@ -114,9 +121,20 @@ function generatePose() {
                 ];
     var emotion = "<br/>Emotion: " + chooseRandom(emotions);
 
+    var wildcards = ['moon', 'sun', 'wolf', 'claws', 'beetle', 'death', 'shadow',
+                    'light', 'healing', 'knight', 'witch', 'crystal', 'raven', 'spark',
+                    'wire', 'lightning', 'snake', 'oriental', 'america', 'bomb',
+                    'dragon', 'fire', 'ice', 'octopus', 'earth', 'wooden', 'cloud', 'plane',
+                    'ship', 'alien', 'shark', 'clean', 'laser'
+                    ];
+    var wildcard = chooseRandomNamed("Wildcard", wildcards);
+
+
+    // assemble it all together
     var final = "Gender: " + gender + pose + emotion + size + 
     "<br/>" + chooseView() +
-    "<br/>" + chooseClothing(gender);
+    "<br/>" + chooseClothing(gender) + 
+    "<br/>" + wildcard;
 
     document.getElementById("pose").innerHTML = final;
 }
@@ -152,41 +170,12 @@ function chooseView() {
 }
 
 function chooseClothing(gender) {
-    var props = ['rifle',
-                'rocket launcher',
-                'pistol',
-                'bat',
-                'pole/spear',
-                'basketball',
-                'football',
-                'ramen',
-                'chicken',
-                'pan',
-                'wand',
-                'book',
-                'laptop',
-                'knife',
-                'broom',
-                'cup',
-                'soccer ball',
-                'shield',
-                'axe',
-                'sycthe',
-                'box'
+    var props = ['rifle', 'rocket launcher', 'pistol', 'bat', 'pole/spear',
+                'basketball', 'football', 'ramen', 'chicken', 'pan', 'wand',
+                'book', 'laptop', 'knife', 'broom', 'cup', 'soccer ball',
+                'shield', 'axe', 'sycthe', 'box', 'bow'
                 ];
-    var prop = chooseRandomNull(15, "Props", props);
-
-    var hats = [ 'fedora',
-                'straw hat',
-                'cowboy hat',
-                'baseball hat',
-                'beanie',
-                'helmet'
-                ];
-    if (gender == 'female') {
-        hats = hats.concat('witch hat');
-    }
-    var hat = chooseRandomNull(20, "Hat", hats);
+    var prop = chooseRandomNamed("Props", props);
 
     var coats = ['trench coat',
                 'poofy jacket',
@@ -196,7 +185,7 @@ function chooseClothing(gender) {
                 'regular jacket',
                 'sweater',
                 ];
-    var coat = chooseRandomNull(20, "Coat", coats);
+    var coat = "<br/>Coat: " + chooseRandomNull(5, coats);
 
     // var face = [];
     var shirts = ['t shirt',
@@ -236,14 +225,42 @@ function chooseClothing(gender) {
     if (gender == 'female') {
         shoes = shoes.concat('high heels', 'knee high boots');
     }
-    var shoe = chooseRandomNull(10, "Shoes", shoes);
+    var shoe = "<br/>Shoes: " + chooseRandomNull(2, shoes);
     
 
-    var addons = ['backpack', 'satchel', 'gloves', 'watch', 'briefcase'];
+    return prop + coat + shirt + pant + shoe + 
+            "<br/>Addons: " + chooseAccessories(gender);
+}
+
+function chooseAccessories(gender) {
+    var faces = ['glasses', 'goggles', 'gas mask', 'mask'];
+    var face = chooseRandomAccessory(10, faces);
+
+    var hats = ['fedora',
+            'straw hat',
+            'cowboy hat',
+            'baseball hat',
+            'beanie',
+            'helmet'
+            ];
+    if (gender == 'female') {
+        hats = hats.concat('witch hat');
+    }
+    var hat = chooseRandomAccessory(10, hats);
+
+    var hands = ['gloves', 'watch', 'gauntlet'];
+    var hand = chooseRandomAccessory(10, hands);
+
+    var addons = ['backpack', 'satchel', 'briefcase', 'cloak', 'cape'];
     if (gender == 'female') {
         addons = addons.concat('purse');
     }
-    var addon = chooseRandomNull(10, "Addons", addons);
+    var addon = chooseRandomAccessory(10, addons);
 
-    return prop + hat + coat + shirt + pant + shoe + addon;
+    var final = hat + face + hand + addon;
+    if (final == '') {
+        return '-';
+    } else {
+        return final.substr(0, final.length - 2);
+    }
 }
