@@ -76,7 +76,7 @@ function addPoseModifiers(pose) {
     return '';
 }
 
-
+// MAIN
 function generatePose() {
     var genders = ['male', 'female'];
     var gender = chooseRandom(genders);
@@ -162,8 +162,8 @@ function chooseView() {
         'up',
         'down'
         ];
-    // we want a higher probability that "front" gets chosen
-    var lookProb = [10, 2, 1, 1, 1];
+    // we want a higher probability that "forward" gets chosen
+    var lookProb = [6, 2, 1, 1, 1];
     var looking = "<br/>Actor Looking: " + chooseWithProbability(lookings, lookProb);
 
     return angle + position + looking;
@@ -173,7 +173,7 @@ function chooseClothing(gender) {
     var props = ['rifle', 'rocket launcher', 'pistol', 'bat', 'pole/spear',
                 'basketball', 'football', 'ramen', 'chicken', 'pan', 'wand',
                 'book', 'laptop', 'knife', 'broom', 'cup', 'soccer ball',
-                'shield', 'axe', 'sycthe', 'box', 'bow'
+                'shield', 'axe', 'sycthe', 'box', 'bow', 'fan'
                 ];
     var prop = chooseRandomNamed("Props", props);
 
@@ -248,8 +248,15 @@ function chooseAccessories(gender) {
     }
     var hat = chooseRandomAccessory(10, hats);
 
-    var hands = ['gloves', 'watch', 'gauntlet'];
+    var hands = ['gloves', 'watch', 'gauntlet', 'vambrace'];
     var hand = chooseRandomAccessory(10, hands);
+    
+    var waists = ['belt'];
+    if (gender == 'female') {
+        waists = waists.concat('corset');
+    }
+    var waist = chooseRandomAccessory(15, waists);
+
 
     var addons = ['backpack', 'satchel', 'briefcase', 'cloak', 'cape'];
     if (gender == 'female') {
@@ -257,7 +264,7 @@ function chooseAccessories(gender) {
     }
     var addon = chooseRandomAccessory(10, addons);
 
-    var final = hat + face + hand + addon;
+    var final = hat + face + hand + waist + addon;
     if (final == '') {
         return '-';
     } else {
