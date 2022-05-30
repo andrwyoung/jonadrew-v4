@@ -8,13 +8,13 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Digital'
+    - title: 'Home'
       url: '/'
-    - title: 'Photos'
-      url: '/photography'
+    # - title: 'Photos'
+    #   url: '/photography'
     # - title: 'Oils ^'
     #   url: 'https://www.dailypaintworks.com/Artists/-jonadrew-13091'
-    - title: 'Pose'
+    - title: 'Poser'
       url: /pose
     - title: 'About'
       url: '/about'
