@@ -158,12 +158,12 @@ ul, ol {
 
 blockquote {
 	margin-top: 15px;
-	border-left: 2px solid $text-dark-color;
 	padding: 10px 0 10px 20px;
 	font-size: $blockquote-small;
 	font-weight: $blockquote-weight;
 	letter-spacing: $blockquote-spacing;
 	line-height: $blockquote-lineheight;
+	text-align: center; 
 
 	@include mq(tabletp) {
 		border-left-width: 3px;

@@ -9,7 +9,7 @@ collections:
     permalink: /:name
   photo_posts:
     output: true
-    sort_by: date
+    sort_by: order
 
 defaults:
   -

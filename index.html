@@ -9,18 +9,49 @@ description: Digital Art Gallery
 
 	<div class="wrap">
 
-		<h1>Digital Art</h1>
-		<p>Here's a recent collection of some of my favorite digital painting pieces!</p>
-		<p>Most of these are on my <a href="https://www.instagram.com/jonadrew_/">Instagram</a>
-			account if you want more context. 
-			Pretty much all of these are drawn using a photo reference 
-			(I think you can guess which one isn't) and using Procreate on my iPad air.</p>
+		<h1>Portfolio</h1>
+		<p>Here's a collection of some of my favorite digital illustrations! Most these
+			were done on Clip Studio Paint using a Huion tablet. You can click on each to read
+			a few thoughts on the process
+		</p>
 
 	</div>
 
 </section>
 
-<section class="portfolio">
+<section class="blog">
+
+	<div class="content-wrap blog-wrap" data-columns="3">
+
+		{% assign sorted-posts = site.photo_posts | sort: "order" %}
+		{% for post in sorted-posts %}
+
+		<article class="blog-post">
+
+			<a class="blog-post__link" href="{{ post.url | relative_url }}">
+
+				<div class="blog-post__image">
+					<img src="/images/illustrations/{{ post.title }}lq.jpg" alt="{{ post.title }}">
+				</div>
+
+				<div class="blog-post__content">
+					<div class="blog-post__info">
+						<h2 class="blog-post__title">{{ post.title }}</h2>
+						<!-- <p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p> -->
+					</div>
+				</div>
+
+			</a>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section>
+
+<!-- <section class="portfolio">
 
 	<div class="gallery" data-columns="3">
 		{% for image in site.static_files reversed %}
@@ -30,4 +61,4 @@ description: Digital Art Gallery
 		{% endfor %}
 	</div>
 
-</section>
+</section> -->

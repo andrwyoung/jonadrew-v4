@@ -8,6 +8,9 @@ layout: default
 
 		<h1>{{ page.title }}</h1>
 		<p>{{ page.date | date_to_long_string }}</p>
+		<br />
+		<br />
+		<img class="headimage" src="/images/illustrations/{{ page.title }}.jpg" alt="image"/>
 
 	</div>
 
@@ -17,13 +20,14 @@ layout: default
 
 	{{ page.content }}
 
-	{% assign mydate = page.date | date: "%Y-%m-%d" %}
-	<div class="gallery" data-columns="3">
-		{% for image in site.static_files %}
-			{% if image.path contains mydate %}
-				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-			{% endif %}
-		{% endfor %}
-	</div>
+	<h4 style="text-align: center;">Process Gallery</h4>
+		<div class="gallery" data-columns="3">
+			{% assign title = page.title %}
+			{% for image in site.static_files %}
+				{% if image.path contains title %}
+					<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+				{% endif %}
+			{% endfor %}
+		</div>
 
 </section>
