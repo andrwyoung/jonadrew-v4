@@ -1,0 +1,32 @@
+---
+layout: default
+title: Art Dump
+description: B tier
+---
+
+
+<section class="intro">
+
+	<div class="wrap">
+		<h1>Gallery</h1>
+
+        <p>Digital things that didn't really make it into the front page. No particular order really
+        </p>
+	</div>
+
+	
+</section>
+
+<section class="portfolio">
+
+    <div class="gallery" data-columns="3">
+        {% for image in site.static_files %}
+            {% if image.path contains 'images/dump' %}
+                <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+            {% endif %}
+        {% endfor %}
+    </div>
+
+</section>
+
+
