@@ -1,5 +1,5 @@
 <div class="contact-form">
-
+<!-- 
 	<form method="post" action="{{ site.data.settings.contact_settings.form_action }}" id="contact-form">
 
 		<div class="contact-form__item">
@@ -25,6 +25,22 @@
 			<input type="submit" value="{{ site.data.settings.contact_settings.send_button_text }}" class="button button--large">
 		</div>
 
-	</form>
+	</form> -->
+
+	<form name="contact" method="POST" data-netlify="true">
+		<div class="contact-form__item">
+			<label class="contact-form__label">Email Address *</label>
+			<input type="text" name="email" placeholder="Your email address..." class="contact-form__input">
+		</div>
+
+		<div class="contact-form__item">
+			<label class="contact-form__label">Name *</label>
+			<input type="text" name="name" placeholder="Your name..." class="contact-form__input">
+		</div>
+		<center>
+		  <button type="submit">Send</button>
+		</center>
+	  </form>
+	  
 
 </div>
