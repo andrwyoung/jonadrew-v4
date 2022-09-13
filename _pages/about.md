@@ -7,7 +7,7 @@ Hi. I'm Andrew, an artist located in Seattle, Washington. My goal is to be finan
 
 <br />
 
-To get updates you can sign up for my **Weekly Wednesday Newsletter**! The goal of this newsletter is mainly for you to just see how I am doing/growing. I'll be updating you on what I've done the past week, what I'm currently working on, and the goals that I have.
+To get updates you can sign up for my **Weekly Wednesday Newsletter**! The goal of this newsletter is people to see how I am doing/growing. I'll be giving updates on what I've done the past week, what I'm currently working on, and the goals that I have.
 
 {% include contact-form.html %}
 
