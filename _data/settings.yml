@@ -17,6 +17,8 @@ menu_settings:
     #   url: /pose
     - title: 'Shop-'
       url: 'https://www.redbubble.com/people/jonadrew/shop?asc=u'
+    - title: 'Newsletter'
+      url: '/newsletter'
     - title: 'About'
       url: '/about'
 
@@ -66,7 +68,7 @@ social_settings:
 
 color_settings:
   background_color: '#fdf9f0'
-  background_alt_color: '#f4f5f6'
+  background_alt_color: '#ffead1'
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
