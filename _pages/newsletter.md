@@ -10,3 +10,6 @@ Sign up for the **Weekly Wednesday Newsletter** to receive updates on what I've 
 <center>
 {% include contact-form.html %}
 </center>
+
+
+You can check out old posts [here-](https://crafty-motivator-7859.ck.page/posts)
