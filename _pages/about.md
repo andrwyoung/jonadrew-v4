@@ -3,7 +3,7 @@ title: About
 description: About Jonadrew
 ---
 
-Hi! I'm Andrew, an artist located in Seattle, Washington. My goal is to be financially independent by selling my art, and by doing freelance illustration + concept art work. I'm most active on [Instagram](https://www.instagram.com/jonadrew_/). You can reach me through Instagram or email me at andrew@jonadrew.com
+Hi! I'm Andrew, a freelance illustrator located in Seattle, Washington. I would love to get to know you! I'm most active on [Instagram](https://www.instagram.com/jonadrew_/), and you can also reach me through email me at <andrew@jonadrew.com>
 
 <br />
 <br />
