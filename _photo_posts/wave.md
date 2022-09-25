@@ -1,7 +1,7 @@
 ---
 layout: photo_posts
 title: Wave
-order: 1
+order: 300
 ---
 
 The idea for this drawing came from another sketch that I did (img 1). 

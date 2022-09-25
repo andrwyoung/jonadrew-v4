@@ -1,7 +1,7 @@
 ---
 layout: photo_posts
 title: Wicked
-order: 6
+order: 600
 ---
 
 > “For dust you are and to dust you shall return” (Genesis 3:19)

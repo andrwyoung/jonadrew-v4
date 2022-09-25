@@ -1,7 +1,7 @@
 ---
 layout: photo_posts
 title: Weight
-order: 2
+order: 200
 ---
 
 The process for this piece was a rather long one. I wasn't really happy with the original idea I had,

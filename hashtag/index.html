@@ -1,0 +1,79 @@
+---
+layout: default
+title: Hashtag Generator
+description: Hashtag Generator
+---
+
+
+<section class="intro">
+
+	<div class="wrap">
+		<h1>Hashtag Generator</h1>
+
+
+
+		<br/>
+        <p>Welcome to my secret generator</p>
+        <br/>
+
+        <select id = "medium" >
+            <option> Digital </option>
+            <option> Graphite </option>
+            <option> Ink </option>
+        </select>
+        <select id = "subject" >
+            <option> - </option>
+            <option> Character </option>
+            <option> Portrait </option>
+            <option> Landscape </option>
+            <option> Animal </option>
+            <option> Still Life </option>
+        </select>
+        <select id = "style" >
+            <option> Painterly </option>
+            <option> Cartoon </option>
+            <option> Line Art </option>
+        </select>
+        
+        <br/>
+        <br/>
+
+
+        <div class="checkbox-rect">
+            <input type="checkbox" id="checkbox-rect1" name="check">
+            <label for="checkbox-rect1">Text on Image (Graphic Design)</label>
+        </div><br/>
+
+        <div class="checkbox-rect">
+            <input type="checkbox" id="checkbox-rect2" name="check">
+            <label for="checkbox-rect2">Considered as Illustration</label>
+        </div><br/>
+
+        <div class="checkbox-rect">
+            <input type="checkbox" id="checkbox-rect3" name="check">
+            <label for="checkbox-rect3">Considered as Concept Art</label>
+        </div><br/>
+
+        <div class="checkbox-rect">
+            <input type="checkbox" id="checkbox-rect4" name="check">
+            <label for="checkbox-rect4">Study</label>
+        </div><br/>
+
+        <div class="checkbox-rect">
+            <input type="checkbox" id="checkbox-rect5" name="check">
+            <label for="checkbox-rect5">Original Character</label>
+        </div><br/>
+
+        <div class="checkbox-rect">
+            <input type="checkbox" id="checkbox-rect6" name="check">
+            <label for="checkbox-rect6">Greyscale (Redundant if is Line Art)</label>
+        </div><br/>
+
+        
+        <button onclick="generateHashtags()">Generate Hashtags</button>
+		<p id="pose"></p>
+		
+	</div>
+
+	
+</section>

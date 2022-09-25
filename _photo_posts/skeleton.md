@@ -1,7 +1,7 @@
 ---
 layout: photo_posts
 title: Avenge
-order: 4
+order: 100
 ---
 
 I wanted to make a cool pose with a skeleton warrior. Took a while to get the right angle of the sword though. 
