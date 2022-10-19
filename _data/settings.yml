@@ -15,8 +15,8 @@ menu_settings:
     #   url: 'https://www.dailypaintworks.com/Artists/-jonadrew-13091'
     # - title: 'Poser'
     #   url: /pose
-    - title: 'Shop-'
-      url: 'https://www.redbubble.com/people/jonadrew/shop?asc=u'
+    - title: 'Shops'
+      url: '/shops'
     - title: 'Newsletter'
       url: '/newsletter'
     - title: 'About'
