@@ -3,6 +3,9 @@ title: About
 description: About Jonadrew
 ---
 
+
+<img src="/images/profile.jpg" width="200">
+
 Hi! I'm Andrew, a freelance illustrator located in Seattle, Washington. 
 
 I started drawing during my freshman year of college in 2017. I didn't have any prior experience, so tried my hardest to grow and learn online, and I really loved it! After college, I moved up to Seattle to work as a Software Engineer and left that job after a year because I wanted to try to make a living doing art. I don't know if it will work out, but I believe that there is no failure even if it doesn't.
