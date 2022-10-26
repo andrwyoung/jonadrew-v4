@@ -4,4 +4,4 @@ title: Inktober
 order: 30
 ---
 
-My favorite from Inktober 2022
+Few of my favorite posts from [Inktober 2022-](https://inktober.com/rules)

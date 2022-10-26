@@ -4,4 +4,4 @@ title: Misc
 order: 60
 ---
 
-Some Personal Illustrations
+Some illustrations done for fun and for personal development

@@ -16,6 +16,8 @@ layout: default
 
 
 <section class="single">
+	{{ page.content }}
+
 	<div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
@@ -24,10 +26,4 @@ layout: default
 			{% endif %}
 		{% endfor %}
 	</div>
-
-
-	{{ page.content }}
-
-
-
 </section>
