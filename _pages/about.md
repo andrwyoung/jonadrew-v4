@@ -4,7 +4,7 @@ description: About Jonadrew
 ---
 
 
-<img src="/images/profile.jpg" width="200">
+<img src="/images/profile.png" width="200">
 
 Hi! I'm Andrew, a freelance illustrator located in Seattle, Washington. 
 
