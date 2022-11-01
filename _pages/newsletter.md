@@ -16,7 +16,7 @@ Sign up for the **Weekly Wednesday Newsletter** to receive updates on what I've 
 
 #### Do you actually post every week?
 
-Yep! You can check out old posts [here-](https://crafty-motivator-7859.ck.page/posts)
+Yep! You can check out old posts [here-](https://blog.jonadrew.com/posts)
 
 #### When do you post?
 
