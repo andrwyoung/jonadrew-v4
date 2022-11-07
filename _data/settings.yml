@@ -15,10 +15,10 @@ menu_settings:
     #   url: 'https://www.dailypaintworks.com/Artists/-jonadrew-13091'
     # - title: 'Poser'
     #   url: /pose
-    - title: 'Shops'
-      url: '/shops'
     - title: 'Newsletter'
       url: '/newsletter'
+    - title: 'Shop-'
+      url: 'https://shop.jonadrew.com/'
     - title: 'About'
       url: '/about'
 
