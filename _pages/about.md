@@ -6,18 +6,18 @@ description: About Jonadrew
 
 <img src="/images/profile.png" width="200">
 
-Hi! I'm Andrew, a freelance illustrator located in Seattle, Washington. 
+Hi! I'm Andrew, a Freelance Illustrator located in Seattle, Washington. 
 
-I started drawing during my freshman year of college in 2017. I didn't have any prior experience, so tried my hardest to grow and learn online, and I really loved it! After college, I moved up to Seattle to work as a Software Engineer and left that job after a year because I want to try making a living doing art. I am really just interested to try things out and see what works for me.
+I started drawing during my freshman year of college in 2017. I didn't have any prior experience, so tried my hardest to grow and learn online, and I really loved it! After college, I moved up to Seattle to work as a Software Engineer and left that job after a year because I want to make a living doing art. Currently I'm looking to do book cover and board game art, but I'm open to trying out different things. I would love to hear from you!
 
-I'm most active on [Instagram-](https://www.instagram.com/jonadrew_/), and you can also reach me through email me at <andrew@jonadrew.com>. I would love to get to know you! 
+You can reach out to me at <andrew@jonadrew.com>, and I am most active on [Instagram-](https://www.instagram.com/jonadrew_/)
 
 <br />
 <br />
 <br />
 
 #### Why the name Jonadrew?
-In middle school, my friend Jonathan and I wanted to make video games together, and Jonadrew was the name we used. I kept using the name when I became interested in making music ([Newgrounds-](https://jonadrew.newgrounds.com)), up until now when I love drawing and painting. So although Jonathan isn't involved in this project anymore, I continue to use this name because it represents my creative journey.
+In middle school, my friend Jonathan and I wanted to make video games together, and Jonadrew was the name we used. I kept using the name when I became interested in making music ([Newgrounds-](https://jonadrew.newgrounds.com)), up until now when I love drawing and painting. So although Jonathan isn't involved in this project anymore, I continue to use Jonadrew because it represents my creative journey.
 
 
 **Extra Credits:** [Pose Generator](../pose/), [Itch-](https://jonadrew.itch.io/), [Soundcloud-](https://soundcloud.com/jonadrew)
