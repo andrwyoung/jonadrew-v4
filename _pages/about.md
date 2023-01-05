@@ -16,11 +16,10 @@ You can reach out to me at <andrew@jonadrew.com>, and I am most active on [Insta
 <br />
 <br />
 
-#### Why the name Jonadrew?
-In middle school, my friend Jonathan and I wanted to make video games together, and Jonadrew was the name we used. I kept using the name when I became interested in making music ([Newgrounds-](https://jonadrew.newgrounds.com)), up until now when I love drawing and painting. So although Jonathan isn't involved in this project anymore, I continue to use Jonadrew because it represents my creative journey.
+<!-- #### Why the name Jonadrew?
+In middle school, my friend Jonathan and I wanted to make video games together, and Jonadrew was the name we used. I kept using the name when I became interested in making music , up until now when I love drawing and painting. So although Jonathan isn't involved in this project anymore, I continue to use Jonadrew because it represents my creative journey. -->
 
-
-**Extra Credits:** [Pose Generator](../pose/), [Itch-](https://jonadrew.itch.io/), [Soundcloud-](https://soundcloud.com/jonadrew)
+**Extra Credits:** [Newgrounds-](https://jonadrew.newgrounds.com), [Pose Generator](../pose/), [Itch-](https://jonadrew.itch.io/), [Soundcloud-](https://soundcloud.com/jonadrew)
 
 (You should also sign up for my [Newsletter](../newsletter/))
  
