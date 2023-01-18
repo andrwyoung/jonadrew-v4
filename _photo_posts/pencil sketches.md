@@ -1,7 +1,7 @@
 ---
 layout: post_multiple
 title: Pencil Sketches
-order: 14
+order: 9
 featured_image: '/images/titles/pencil.jpg'
 ---
 

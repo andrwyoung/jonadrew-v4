@@ -1,7 +1,7 @@
 ---
 layout: post_multiple
 title: Character Design
-order: 2
+order: 3
 featured_image: '/images/titles/character.jpg'
 ---
 
@@ -27,7 +27,7 @@ featured_image: '/images/titles/character.jpg'
 		{% endfor %}
 </div>
 
-
+<!-- 
 ## Ten Boom 
 
 <div class="gallery" data-columns="2">
@@ -37,4 +37,4 @@ featured_image: '/images/titles/character.jpg'
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
-</div>
+</div> -->

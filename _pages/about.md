@@ -8,7 +8,7 @@ description: About Jonadrew
 
 Hi! I'm Andrew, a Freelance Illustrator located in Seattle, Washington. 
 
-I started drawing during my freshman year of college in 2017. I didn't have any prior experience, so tried my hardest to grow and learn online, and I really loved it! After college, I moved up to Seattle to work as a Software Engineer and left that job after a year because I want to make a living doing art. Currently I'm looking to do book cover and board game art, but I'm open to trying out different things. I would love to hear from you!
+I started drawing during my freshman year of college in 2017. I didn't have any prior experience, so tried my hardest to grow and learn online, and I really loved it! After college, I moved up to Seattle to work as a Software Engineer and left that job after a year because I want to make a living doing art. Currently I'm doing book cover and board game art, but I'm open to trying out different things. I would love to hear from you!
 
 You can reach out to me at <andrew@jonadrew.com>, and I am most active on [Instagram-](https://www.instagram.com/jonadrew_/)
 

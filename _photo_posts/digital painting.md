@@ -1,7 +1,7 @@
 ---
 layout: post_multiple
 title: Digital Painting
-order: 3
+order: 10
 featured_image: '/images/titles/paint.jpg'
 ---
 
