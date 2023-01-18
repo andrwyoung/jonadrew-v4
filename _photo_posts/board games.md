@@ -8,10 +8,9 @@ featured_image: '/images/titles/board.jpg'
 ## Emergence (Work in Progress)
 
 
+Concept/Mockup illustrations for a deception game based on androids 
 
-Illustrations and Graphic Design done by me.
-
-Game Design and Graphic Design done by Roger Yu
+Illustrations and Graphic Design by me. Game Design and Graphic Design by Roger Yu
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
