@@ -5,7 +5,7 @@ order: 2
 featured_image: '/images/titles/board.jpg'
 ---
 
-## Emergence (Work in Progress)
+## Emergence
 
 
 Concept/Mockup illustrations for a deception game based on androids 
@@ -20,3 +20,6 @@ Illustrations and Graphic Design by me. Game Design and Graphic Design by Roger 
 			{% endif %}
 		{% endfor %}
 </div>
+
+
+<img class="imag" src="/images/v2/all.jpg">
