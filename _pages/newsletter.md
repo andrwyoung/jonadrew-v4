@@ -18,15 +18,13 @@ Sign up for the **Weekly Wednesday Newsletter** to receive updates on what I've 
 
 Yep! You can check out old posts [here-](https://blog.jonadrew.com/profile)
 
+#### When do you post?
+
 I've been scheduling them for Wednesday 4pm PST 
 
 #### What's in the emails?
 
 The main focus of the email is giving updates on what I've been doing and art I've been working on
-
-#### What's the difference between Email Updates and this?
-
-[The Email Updates-](https://blog.jonadrew.com/signup) are for updates on when I release new merch, while this newsletter is more of like a journal of my life
 
 #### Why aren't any emails showing up?
 
