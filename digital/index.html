@@ -8,10 +8,9 @@ description: Studies and Classwork
 <section class="intro">
 
 	<div class="wrap">
-		<h1>Studies Gallery</h1>
+		<h1>Digital Art</h1>
 
-        <p> Some personal studies and classwork from 
-            <a href="https://www.cgmasteracademy.com/">CGMA ^</a>
+        <p> Paintings I do for FUN
         </p>
 	</div>
 
@@ -22,7 +21,7 @@ description: Studies and Classwork
 
     <div class="gallery" data-columns="3">
         {% for image in site.static_files%}
-            {% if image.path contains 'images/studies' %}
+            {% if image.path contains 'images/v2/digital_painting' %}
                 <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endif %}
         {% endfor %}

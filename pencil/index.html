@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Unpublished Work
-description: Secret Page
+title: Studies
+description: Studies and Classwork
 ---
 
 
 <section class="intro">
 
 	<div class="wrap">
-		<h1>Unpublished Works</h1>
+		<h1>Pencil Sketches</h1>
 
-        <p> Secret Page hehe
+        <p> Drawing Practice
         </p>
 	</div>
 
@@ -21,11 +21,13 @@ description: Secret Page
 
     <div class="gallery" data-columns="3">
         {% for image in site.static_files%}
-            {% if image.path contains 'images/studies' %}
+            {% if image.path contains 'images/v2/pencil_sketches' %}
                 <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
             {% endif %}
         {% endfor %}
     </div>
+
+
     
 
 </section>

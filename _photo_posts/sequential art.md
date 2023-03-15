@@ -1,7 +1,7 @@
 ---
 layout: post_multiple
 title: Story Art
-order: 4
+order: 3
 featured_image: '/images/titles/story.jpg'
 ---
 

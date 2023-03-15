@@ -7,10 +7,12 @@ featured_image: '/images/titles/book.jpg'
 
 ## Book Covers
 
+Book covers done for two fantasy trilogies
+
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
-			{% if image.path contains "book_covers" %}
+			{% if image.path contains "ben_wolf" %}
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
@@ -18,6 +20,8 @@ featured_image: '/images/titles/book.jpg'
 
 
 ## Posters
+
+Could some of these be on my [shop-](https://shop.jonadrew.com/)? Maybe!
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}

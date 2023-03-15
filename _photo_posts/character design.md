@@ -1,7 +1,7 @@
 ---
 layout: post_multiple
 title: Character Design
-order: 3
+order: 4
 featured_image: '/images/titles/character.jpg'
 ---
 
