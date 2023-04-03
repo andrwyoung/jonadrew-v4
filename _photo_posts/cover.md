@@ -21,7 +21,7 @@ Book covers done for two fantasy trilogies
 
 ## Posters
 
-Could some of these be on my [shop-](https://shop.jonadrew.com/)? Maybe!
+Most of these are on my [shop-](https://shop.jonadrew.com/)
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
