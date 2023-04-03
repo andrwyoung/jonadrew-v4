@@ -7,7 +7,7 @@ featured_image: '/images/titles/book.jpg'
 
 ## Book Covers
 
-Book covers done for two fantasy trilogies
+Book covers done for two fantasy trilogies: [Kickstarter Link](https://www.kickstarter.com/projects/benwolf/two-kids-books-series-from-award-winning-author-ben-wolf/description)
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
