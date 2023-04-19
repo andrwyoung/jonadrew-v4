@@ -5,6 +5,27 @@ order: 4
 featured_image: '/images/titles/character.jpg'
 ---
 
+## Zodiac pt. 1: Gold
+
+<div class="gallery" data-columns="2">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "zodiac" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+
+Character Descriptions:
+<div class="gallery" data-columns="2">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "zod_designs" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+
 ## Robot Mermaid
 
 <div class="gallery" data-columns="2">
