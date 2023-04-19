@@ -26,7 +26,7 @@ Book covers done for two fantasy trilogies: [Kickstarter Link](https://www.kicks
 
 Most of these are on my [shop-](https://shop.jonadrew.com/)
 
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="3">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
 			{% if image.path contains "poster" %}
