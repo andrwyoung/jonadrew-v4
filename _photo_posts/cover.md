@@ -7,7 +7,9 @@ featured_image: '/images/titles/book.jpg'
 
 ## Book Covers
 
-Book covers done for two fantasy trilogies: [Kickstarter Link](https://www.kickstarter.com/projects/benwolf/two-kids-books-series-from-award-winning-author-ben-wolf/description)
+Book covers done for two fantasy trilogies: [Kickstarter Link](https://www.kickstarter.com/projects/benwolf/two-kids-books-series-from-award-winning-author-ben-wolf/description). Layout and logos done by [Jenneth Leed](https://www.instagram.com/jennethleed_author/)
+
+<img class="imag" src="/images/v2/300.jpg">
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -17,6 +19,7 @@ Book covers done for two fantasy trilogies: [Kickstarter Link](https://www.kicks
 			{% endif %}
 		{% endfor %}
 </div>
+
 
 
 ## Posters
