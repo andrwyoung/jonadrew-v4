@@ -15,11 +15,17 @@ Illustrations and Graphic Design by me. Game Design and Graphic Design by Roger 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
-			{% if image.path contains "board_games" %}
+			{% if image.path contains "emergence" %}
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
 </div>
 
-
-<img class="imag" src="/images/v2/all.jpg">
+<div class="gallery" data-columns="3">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "emerg_mockup" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
