@@ -6,7 +6,7 @@ featured_image: '/images/titles/character.jpg'
 ---
 
 # Zodiac
-After the tyrant king's untimely death, the Golden Kingdom is split into 2 factions fighting to establish the rightful ruler. The Snake inhereits the Gold Throne, wielding the king's resources and power, but a rugged army approaches from the East with their own claim for the throne. 
+After the Tyrant King's untimely death, the Snake inhereits the Golden Throne, but a rugged army approaches from the East with their own claim for the throne. 
 
 ## Pt. 1: Gold
 
@@ -20,7 +20,7 @@ After the tyrant king's untimely death, the Golden Kingdom is split into 2 facti
 </div>
 
 Character Descriptions:
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="3">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
 			{% if image.path contains "zod1_designs" %}
@@ -28,6 +28,7 @@ Character Descriptions:
 			{% endif %}
 		{% endfor %}
 </div>
+
 
 ## Pt. 2: Crimson
 
@@ -41,7 +42,7 @@ Character Descriptions:
 </div>
 
 Character Descriptions:
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="3">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
 			{% if image.path contains "zod2_designs" %}
