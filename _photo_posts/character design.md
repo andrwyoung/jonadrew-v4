@@ -53,6 +53,8 @@ Character Descriptions:
 
 ## Robot Mermaid
 
+Design for militant underwater civilization
+
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
@@ -63,6 +65,8 @@ Character Descriptions:
 </div>
 
 ## Sugar Plum Fairy
+
+Watched the Nutcracker
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
