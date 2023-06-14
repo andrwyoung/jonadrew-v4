@@ -8,7 +8,7 @@ featured_image: '/images/titles/board.jpg'
 ## Emergence
 
 
-Concept/Mockup illustrations for a deception game based on androids 
+(2022) Concept/Mockup illustrations for a deception game based on androids 
 
 Illustrations and Graphic Design by me. Game Design and Graphic Design by Roger Yu
 

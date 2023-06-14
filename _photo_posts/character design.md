@@ -6,7 +6,7 @@ featured_image: '/images/titles/character.jpg'
 ---
 
 # Zodiac
-After the Tyrant King's untimely death, the Snake inhereits the Golden Throne, but a rugged army approaches from the East with their own claim for the throne. 
+(2023) After the Tyrant King's untimely death, the Snake inhereits the Golden Throne, but a rugged army approaches from the East with their own claim for the throne. 
 
 ## Pt. 1: Gold
 
