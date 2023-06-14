@@ -6,7 +6,7 @@ featured_image: '/images/titles/story.jpg'
 ---
 
 ## Witch Comic
-(2023) 10 age comic about a witch trying to get home with her ice cream
+(2023) 10 page comic about a witch trying to get home with her ice cream
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -15,7 +15,7 @@ featured_image: '/images/titles/story.jpg'
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
-</div>p
+</div>
 
 
 ## Snowman Comic
