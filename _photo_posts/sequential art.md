@@ -1,6 +1,6 @@
 ---
 layout: post_multiple
-title: Story Art
+title: Comics
 order: 1
 featured_image: '/images/titles/story.jpg'
 ---
@@ -32,8 +32,8 @@ featured_image: '/images/titles/story.jpg'
 </div>
 
 
-<!-- ## Snowman Comic
-(2020) Snippet of a comic I did about a Magic snowman protecting a village
+## Snowman Comic
+(2020) Snippet of an exploratory comic about a magic snowman protecting a village
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -42,7 +42,7 @@ featured_image: '/images/titles/story.jpg'
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
-</div> -->
+</div>
 
 
 ## Storyboarding
