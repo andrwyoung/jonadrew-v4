@@ -1,7 +1,7 @@
 ---
 layout: post_multiple
 title: Board Games
-order: 2
+order: 3
 featured_image: '/images/titles/board.jpg'
 ---
 

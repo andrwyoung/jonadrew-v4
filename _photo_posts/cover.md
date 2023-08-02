@@ -1,7 +1,7 @@
 ---
 layout: post_multiple
 title: Book Covers / Posters
-order: 0
+order: 2
 featured_image: '/images/titles/book.jpg'
 ---
 

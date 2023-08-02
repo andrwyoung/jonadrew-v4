@@ -1,11 +1,11 @@
 ---
 layout: post_multiple
 title: Story Art
-order: 3
+order: 1
 featured_image: '/images/titles/story.jpg'
 ---
 
-## The Snowfell Saga
+## The Snowfall Saga
 (Ongoing)
 
 <div class="gallery" data-columns="2">
