@@ -6,7 +6,7 @@ featured_image: '/images/titles/story.jpg'
 ---
 
 ## The Snowfall Saga
-(Ongoing)
+(Ongoing) [Tapas Link](https://tapas.io/series/The-Snowfall-Saga)
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -20,7 +20,7 @@ featured_image: '/images/titles/story.jpg'
 
 
 ## Witch Comic
-(2023) 10 page comic about a witch trying to get home with her ice cream
+(2023) Short story about a witch trying to get home with her ice cream
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -33,7 +33,7 @@ featured_image: '/images/titles/story.jpg'
 
 
 ## Snowman Comic
-(2020) Snippet of an exploratory comic about a magic snowman protecting a village
+(2020) Exploratory comic about a magic snowman protecting a village
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
