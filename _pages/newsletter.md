@@ -24,12 +24,12 @@ I've been scheduling them for Wednesday 4pm PST
 
 #### What's in the emails?
 
-The main focus of the email is giving updates on what I've been doing and art I've been working on
+The focus of the email is just showing the art I've been working on giving updates on what's been going on
 
-#### Why aren't any emails showing up?
+<!-- #### Why aren't any emails showing up?
 
-You might have to confirm your subscription by checking under your Promotions tab
+You might have to confirm your subscription by checking under your Promotions tab -->
 
-#### Are you just trying to sell me something?
+<!-- #### Are you just trying to sell me something?
 
-That too :>
+That too :> -->

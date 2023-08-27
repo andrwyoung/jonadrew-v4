@@ -6,17 +6,25 @@ featured_image: '/images/titles/story.jpg'
 ---
 
 ## The Snowfall Saga
-(Ongoing) [Tapas Link](https://tapas.io/series/The-Snowfall-Saga)
+(Ongoing) [Read on Tapas-](https://tapas.io/series/The-Snowfall-Saga). I also post the most up to date pages on my [Newsletter](../newsletter/)
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
-			{% if image.path contains "snowfell_saga" %}
+			{% if image.path contains "snowfell_saga1" %}
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
 </div>
 
+<div class="gallery" data-columns="2">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "snowfell_saga2" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
 
 
 ## Witch Comic
