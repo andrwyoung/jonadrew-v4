@@ -17,6 +17,8 @@ featured_image: '/images/titles/story.jpg'
 		{% endfor %}
 </div>
 
+sample 2
+
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
