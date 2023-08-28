@@ -6,7 +6,7 @@ featured_image: '/images/titles/story.jpg'
 ---
 
 ## The Snowfall Saga
-(Ongoing) [Read on Tapas-](https://tapas.io/series/The-Snowfall-Saga). I also post the most up to date pages on my [Newsletter](../newsletter/)
+(Ongoing) The most up to date pages are on the [Newsletter](../newsletter/), but you can also [read on Tapas-](https://tapas.io/series/The-Snowfall-Saga).
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
