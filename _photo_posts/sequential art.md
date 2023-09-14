@@ -5,8 +5,13 @@ order: 1
 featured_image: '/images/titles/story.jpg'
 ---
 
+
 ## The Snowfall Saga
-(Ongoing) The most up to date pages are on the [Newsletter](../newsletter/), but you can also [read on Tapas-](https://tapas.io/series/The-Snowfall-Saga).
+(Ongoing. Written and Illustrated) [Dedicated Reader](http://snowfallsaga.com/)
+
+Lyvia unlocks a strange power given to her from her father, and unwittingly goes on an adventure with a fire princess who lost her kingdom.
+
+sample 1:
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -17,7 +22,7 @@ featured_image: '/images/titles/story.jpg'
 		{% endfor %}
 </div>
 
-sample 2
+sample 2:
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -30,7 +35,7 @@ sample 2
 
 
 ## Witch Comic
-(2023) Short story about a witch trying to get home with her ice cream
+(2023. Written and Illustrated) Short story about a witch trying to get home with her ice cream
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -42,7 +47,24 @@ sample 2
 </div>
 
 
-## Snowman Comic
+## Inktober 2023
+(Ongoing. Written and Illustrated) [Dedicated Reader](http://snowfallsaga.com/series/inktober-2023/)
+
+Tober goes in search of the power that lies in the great tower, but discovers something amis. It's ok though because he's built different. 
+
+Story follows the prompts given for [Inktober 2023](https://inktober.com/rules)
+<div class="gallery" data-columns="3">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "inktober_2023" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+
+
+
+<!-- ## Snowman Comic
 (2020) Exploratory comic about a magic snowman protecting a village
 
 <div class="gallery" data-columns="2">
@@ -66,4 +88,4 @@ sample 2
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
-</div>
+</div> -->
