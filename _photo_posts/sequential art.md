@@ -11,7 +11,7 @@ featured_image: '/images/titles/story.jpg'
 
 Lyvia unlocks a strange power given to her from her father, and unwittingly goes on an adventure with a fire princess who lost her kingdom.
 
-sample 1:
+<!-- sample 1:
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
@@ -20,9 +20,7 @@ sample 1:
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
-</div>
-
-sample 2:
+</div> -->
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
