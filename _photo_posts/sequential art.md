@@ -9,23 +9,25 @@ featured_image: '/images/titles/story.jpg'
 ## The Snowfall Saga
 (Ongoing. Written and Illustrated) [Dedicated Reader](http://snowfallsaga.com/)
 
-Lyvia unlocks a strange power given to her from her father, and unwittingly goes on an adventure with a fire princess who lost her kingdom.
+Lyvia unlocks a strange ice power left behind by her father, and unwittingly goes on an adventure with fire princess Julia to flee from those that seek her power and want Julia dead.
 
-<!-- sample 1:
 
-<div class="gallery" data-columns="2">
-		{% assign title = page.title %}
-		{% for image in site.static_files %}
-			{% if image.path contains "snowfell_saga1" %}
-				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-			{% endif %}
-		{% endfor %}
-</div> -->
-
+sample 1:
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
 			{% if image.path contains "snowfell_saga2" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+
+
+sample 2:
+<div class="gallery" data-columns="2">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "snowfell_saga3" %}
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
