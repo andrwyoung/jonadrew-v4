@@ -6,6 +6,8 @@ description: Sign up for Weekly Wednesday Newsletter!
 <br />
 Sign up for the **Weekly Wednesday Newsletter** to receive updates on what I've been up to and hear some thoughts about making a living as an artist. Excited to have you!
 
+Check out old posts [here-](https://blog.jonadrew.com/profile)
+
 <br />
 <center>
 {% include contact-form.html %}
@@ -14,22 +16,15 @@ Sign up for the **Weekly Wednesday Newsletter** to receive updates on what I've 
 
 ## FAQ:
 
-#### Do you actually post every week?
+#### Why aren't any emails showing up?
 
-Yep! You can check out old posts [here-](https://blog.jonadrew.com/profile)
+You might have to check under your Promotions tab
 
 #### When do you post?
 
-I've been scheduling them for Wednesday 4pm PST 
+Every Wednesday at 4pm PST
 
-#### What's in the emails?
 
-The focus of the email is just showing the art I've been working on giving updates on what's been going on
 
-<!-- #### Why aren't any emails showing up?
-
-You might have to confirm your subscription by checking under your Promotions tab -->
-
-<!-- #### Are you just trying to sell me something?
-
-That too :> -->
+## Testimonials
+"I love how Andrew gives me a snapshot of his week and always makes me wish his newsletters were longer. Especially like the random pictures at the end." - Andrew's Mom
