@@ -1,7 +1,7 @@
 ---
 layout: post_multiple
 title: Comics
-order: 1
+order: 3
 featured_image: '/images/titles/story.jpg'
 ---
 
