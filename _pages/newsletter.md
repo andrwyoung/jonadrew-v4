@@ -1,10 +1,10 @@
 ---
 title: Weekly Wednesday Newsletter
-description: Sign up for Weekly Wednesday Newsletter!
+description: Here's my newsletter (more of a blog)
 ---
 
 <br />
-Sign up for the **Weekly Wednesday Newsletter** to receive updates on what I've been up to and hear some thoughts about making a living as an artist. Excited to have you!
+Sign up for the **Weekly Wednesday Newsletter** to receive updates on what I've been up to and hear some thoughts about making a living as an artist (it's really more like a blog though). Excited to have you!
 
 Check out old posts [here-](https://blog.jonadrew.com/profile)
 

@@ -5,6 +5,18 @@ order: 2
 featured_image: '/images/titles/board.jpg'
 ---
 
+
+## MHA Trading Card Game
+(Ongoing) Fanart Project
+<div class="gallery" data-columns="3">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "mha" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+
 ## Agents Without a Clue
 (Oct 2023 - Jan 2024) [Website](https://agentswithoutaclue.com/)
 
@@ -21,7 +33,7 @@ Illustrations for the Gunslinging and Deduction Card Game where Nobody Knows. Se
 </div>
 
 
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="3">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
 			{% if image.path contains "agents_obs" %}

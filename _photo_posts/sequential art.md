@@ -1,33 +1,42 @@
 ---
 layout: post_multiple
-title: Comics
-order: 3
+title: Book Covers and Comics
+order: 1
 featured_image: '/images/titles/story.jpg'
 ---
 
+## Book Covers
+Text and Layout done by Jenneth Leed
 
-## The Snowfall Saga
-(Ongoing. Written and Illustrated) [Dedicated Reader](http://snowfallsaga.com/)
-
-Lyvia unlocks a strange ice power left behind by her father, and unwittingly goes on an adventure with fire princess Julia to flee from those that seek her power and want Julia dead.
-
-
-sample 1:
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
-			{% if image.path contains "snowfell_saga2" %}
+			{% if image.path contains "misc_book" %}
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
 </div>
 
+## Archsage
+(Ongoing) Written by Ben Wolf. A young mage unlocks a hidden power within him and has to learn to wield this power in order to fight a rival tribe seeking revenge 
 
-sample 2:
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
-			{% if image.path contains "snowfell_saga3" %}
+			{% if image.path contains "archsage" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+
+## The Snowfall Saga
+(Ongoing) Lyvia receives a strange ice power left behind by her father and goes on an adventure to flee from those that want her power.
+
+
+<div class="gallery" data-columns="2">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "snowfell_saga2" %}
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
@@ -47,7 +56,7 @@ sample 2:
 </div>
 
 
-## Inktober 2023
+<!-- ## Inktober 2023
 (Ongoing. Written and Illustrated) [Dedicated Reader](http://snowfallsaga.com/series/inktober-2023/)
 
 Tober goes in search of the power that lies in the great tower, but discovers something amis. It's ok though because he's built different. 
@@ -60,7 +69,7 @@ Story follows the prompts given for [Inktober 2023](https://inktober.com/rules)
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
-</div>
+</div> -->
 
 
 
