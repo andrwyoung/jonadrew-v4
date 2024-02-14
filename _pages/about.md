@@ -19,7 +19,7 @@ Currently I'm do book cover and board game art, but I'm open to trying out diffe
 <!-- #### Why the name Jonadrew?
 In middle school, my friend Jonathan and I wanted to make video games together, and Jonadrew was the name we used. I kept using the name when I became interested in making music , up until now when I love drawing and painting. So although Jonathan isn't involved in this project anymore, I continue to use Jonadrew because it represents my creative journey. -->
 
-**Extra Links:** [Newgrounds-](https://jonadrew.newgrounds.com), [Pose Generator](../pose/), [Itch-](https://jonadrew.itch.io/), [Soundcloud-](https://soundcloud.com/jonadrew), [Newsletter](../newsletter/))
+**Extra Links:** [Newgrounds-](https://jonadrew.newgrounds.com), [Pose Generator](../pose/), [Itch-](https://jonadrew.itch.io/), [Soundcloud-](https://soundcloud.com/jonadrew), [Newsletter](../newsletter/)
  
   <!-- but I also have a gallery up on 
  [Daily Paint Works](https://www.dailypaintworks.com/Artists/-jonadrew-13091) for most of 
