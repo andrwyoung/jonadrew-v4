@@ -6,9 +6,9 @@ description: About Jonadrew
 
 <img src="/images/profile.png" width="200">
 
-Hi! I'm Andrew, a self taught Freelance Illustrator located in Seattle, Washington. 
+Hi! I'm Andrew, a self taught Freelance Illustrator located in San Francisco.
 
-I started drawing in college and fell in love with it. I moved up to Seattle for an engineering job but left to make a living doing Illustration. Outside of work, I enjoy the outdoors and playing guitar. 
+I started drawing in college and fell in love with it. I moved up to Seattle for an engineering job but left to do Illustration. Outside of work, I enjoy the outdoors and playing guitar. 
 
 Currently I'm do book cover and board game art, but I'm open to trying out different things. I would love to hear from you! You can reach out to me at <andrew@jonadrew.com>, and I am most active on [Instagram-](https://www.instagram.com/jonadrew_/)
 

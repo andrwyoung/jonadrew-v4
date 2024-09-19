@@ -20,10 +20,31 @@ Text and Layout done by Jenneth Leed
 ## Archsage
 (Ongoing) Written by Ben Wolf. A young mage unlocks a hidden power within him and has to learn to wield this power in order to fight a rival tribe seeking revenge 
 
-<div class="gallery" data-columns="2">
+Sample 1:
+<div class="gallery" data-columns="3">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
-			{% if image.path contains "archsage" %}
+			{% if image.path contains "archsage1" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+Sample 2:
+
+<div class="gallery" data-columns="3">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "archsage2" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+Sample 3:
+
+<div class="gallery" data-columns="3">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "archsage3" %}
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
@@ -33,7 +54,7 @@ Text and Layout done by Jenneth Leed
 (Ongoing) Lyvia receives a strange ice power left behind by her father and goes on an adventure to flee from those that want her power.
 
 
-<div class="gallery" data-columns="2">
+<div class="gallery" data-columns="3">
 		{% assign title = page.title %}
 		{% for image in site.static_files %}
 			{% if image.path contains "snowfell_saga2" %}
