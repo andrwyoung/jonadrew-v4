@@ -6,9 +6,21 @@ featured_image: '/images/titles/board.jpg'
 ---
 
 
+## Royal Tyrants
+(Ongoing) Series of posters for factions in a Chess-like board game. 
+
+<div class="gallery" data-columns="3">
+		{% assign title = page.title %}
+		{% for image in site.static_files %}
+			{% if image.path contains "tyrants" %}
+				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+			{% endif %}
+		{% endfor %}
+</div>
+
 ## Call of Pooh-Thulu
 
-(March 24 - Sept 2024) [Kickstarter](https://www.kickstarter.com/projects/1155362758/the-call-of-pooh-thulhu-cthulhu-comes-to-the-100-acre-woods) Set to release Halloween 2024
+(March 24 - Sept 2024) [Kickstarter](https://www.kickstarter.com/projects/1155362758/the-call-of-pooh-thulhu-cthulhu-comes-to-the-100-acre-woods) Launched Halloween 2024
 
  Winnie the Pooh meets Cthulhu in a horror themed role play card game. 
 <div class="gallery" data-columns="3">
@@ -63,7 +75,7 @@ Mockups:
 
 
 
-## Emergence
+<!-- ## Emergence
 
 
 (2022) Illustrations for a deception game based on androids 
@@ -77,4 +89,4 @@ Illustrations and Graphic Design by me. Game Design and Graphic Design by Roger 
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			{% endif %}
 		{% endfor %}
-</div>
+</div> -->

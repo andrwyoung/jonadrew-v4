@@ -1,11 +1,11 @@
 ---
 layout: post_multiple
-title: Studies
+title: Digital Painting
 order: 10
 featured_image: '/images/titles/study.jpg'
 ---
 
-Some studies of different subject matter
+Some paintings of different subject matter
 
 <div class="gallery" data-columns="3">
 		{% assign title = page.title %}
