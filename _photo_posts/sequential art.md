@@ -6,7 +6,7 @@ featured_image: '/images/titles/story.jpg'
 ---
 
 ## Book Covers
-Text and Layout done by Jenneth Leed
+Text and Layout mostly done by Jenneth Leed
 
 <div class="gallery" data-columns="2">
 		{% assign title = page.title %}
